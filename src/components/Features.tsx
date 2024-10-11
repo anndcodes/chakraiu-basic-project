@@ -4,7 +4,7 @@ import {
   HassleFreeIcon,
   MoneyBackGuaranteeIcon,
   MonthlySubscriptionIcon,
-} from "../icons/Icons";
+} from "../icons/Icons.tsx";
 
 interface FeatureProps extends StackProps {
   icon: ElementType;

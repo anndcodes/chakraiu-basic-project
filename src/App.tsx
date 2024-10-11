@@ -1,7 +1,7 @@
 // import React from "react"
-import { Features } from "./components/Features";
-import { Header } from "./components/Header";
-import { Pricing } from "./components/Pricing";
+import { Features } from "./components/Features.tsx";
+import { Header } from "./components/Header.tsx";
+import { Pricing } from "./components/Pricing.tsx";
 
 function App() {
   return (
