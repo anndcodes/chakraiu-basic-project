@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 import { CheckCircle } from "@phosphor-icons/react"
 
 export function CheckIcon() {
