@@ -1,5 +1,5 @@
 import { ElementType } from "react";
-import { HStack, Icon, Text, StackProps, Box } from "@chakra-ui/react";
+import { HStack, Stack, Icon, Text, StackProps, Box } from "@chakra-ui/react";
 import {
   HassleFreeIcon,
   MoneyBackGuaranteeIcon,
@@ -26,7 +26,7 @@ function Feature(props: FeatureProps) {
 export function Features() {
   return (
     <Box maxW="1024px" m="auto" pt="60px" pb="8">
-      <HStack px="12" spacing="6">
+      <Stack px="12" spacing="6" direction={["column", "column", "row"]}>
         <Feature icon={MoneyBackGuaranteeIcon}>
           30 days money back Guarantee
         </Feature>
@@ -34,7 +34,7 @@ export function Features() {
         <Feature icon={MonthlySubscriptionIcon}>
           No montly subscriptions Pay once and for all
         </Feature>
-      </HStack>
+      </Stack>
     </Box>
   );
 }
