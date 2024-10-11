@@ -1,21 +1,7 @@
-// import { div } from 'framer-motion/client'
-// import './App.css'
+import React from "react"
 import { Features } from "./components/Features";
 import { Header } from "./components/Header";
 import { Pricing } from "./components/Pricing";
-
-import {
-  Box,
-  Flex,
-  Stack,
-  VStack,
-  HStack,
-  StackDivider,
-  Text,
-  Heading,
-  Button,
-} from "@chakra-ui/react";
-import { div } from "framer-motion/client";
 
 function App() {
   return (
